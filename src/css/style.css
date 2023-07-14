@@ -4,7 +4,6 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -12,7 +11,7 @@
   position: sticky;
   z-index: 1;
   top: 0px;
-  background-color: rgb(38, 76, 86);;
+  background-color: rgb(38, 76, 86);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -159,7 +158,6 @@
   display:flex;
   align-items: center;
   box-shadow: 1px 1px rgb(164,164,164), -1em -1em 0.2em rgb(164, 164, 164);
-  cursor: pointer;
   transition: all 0.3s ease 0s;
 
 }
@@ -200,28 +198,183 @@
   border-color: #3bc6a5;
   border-width: 3px;
   border-style:solid;
+  transition: all 0.3s ease 0s;
 }
 .redesSociales li a:hover{
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 
-.sobremi{
+.Ssobremi{
   display: flex;
-  background-color: #828684;
+  background-color: rgb(38, 76, 86);
   width: 100%;
-  height: 850px;
-}
+  height: 600px;
+  flex-direction: column;
+  align-items: center;
 
-.textSobremi{
-  background-color: #3bc6a5;
+}
+.sobremi{
+  background-color: rgb(38, 76, 86);
   width: 100%;
-  height: 70px;
+  height: 90px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.tituloSobremi{
+  background-color: rgb(38, 76, 86);
+  width: 200px;
+  height: 60px;
+  color: #ffffff;
   font-family:Arial, Helvetica, sans-serif;
   font-size: 40px;
   display: flex;
-  flex-wrap: wrap;
   justify-content:center;
   align-items: center;
+  transition: all 0.2s ease 0s;
+}
+.tituloSobremi:hover{
+  transform: scale(1.2);
+}
+.textoSobremi{
+  background-color: rgb(38, 76, 86);
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.textoSobremi h1{
+  color: #3bc6a5;
+}
+.textoSobremi h3{
+  color: #ffffff;
+}
+.padrePI{
+  background-color: rgb(38, 76, 86);
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+}
+/*-----------------------------------*/
+.datosPersonales{
+  background-color: rgb(38, 76, 86);
+  height: 260px;
+  width: 400px;
+  margin: 20px;
+  margin-left: 280px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.datosPersonales h1{
+  color: #ffffff;
+}
+.datosPersonales h4{
+  color: #3bc6a5;
+}
+.datosPersonales h5{
+  font-size: 16px;
+  color: #ffffff;
+}
+.contenedor{
+  background-color: rgb(38, 76, 86);
+  height: 230px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.temas{
+  margin: 10px;
+  background-color: rgb(38, 76, 86);
+  height: 190px;
+  width: 110px;
+}
+.respuestas{
+  margin: 10px;
+  background-color: rgb(38, 76, 86);
+  height: 190px;
+  width: 210px;
+}
+.respuestas a{
+  background-color: #3bc6a5;
+    font-size: 16px;
+    font-style:italic;
+    color: #ffffff;
+}
+
+/*----------------------------------*/
+
+.cajaP{
+  background-color: rgb(38, 76, 86);
+  height: 260px;
+  width: 750px;
+  margin: 20px;
+  margin-right: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cajaP h1{
+  color: #ffffff;
+}
+.misIntereses{
+  background-color: rgb(38, 76, 86);
+  height: 222px;
+  width: 750px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bodycard{
+  border-radius: 10px;
+  margin: 3px;
+  background-color: rgb(29, 58, 66);
+  height: 105px;
+  width: 181px;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  justify-content:start;
+  color: #ffffff;
+  font-size: 24px;
+  transition: all 0.2s ease 0s;
+}
+.bodycard:hover{
+  background-color: #379a83;
+  transform: scale(1.02);
+}
+
+.botonesD{
+  background-color: transparent;
+  height: 80px;
+  width: 650px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  font-family:  Arial;
+}
+.descarga{
+  background-color: transparent;
+  height: 60px;
+  width: 200px;
+  border: solid;
+  border-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  color: #ffffff;
+  font-size: 15px;
+  transition: all 0.2s ease 0s;
+}
+.descarga:hover{
+  background-color: #379a83;
+  transform: scale(1.02);
 }
 
 
@@ -259,5 +412,4 @@
   background-color: #0b0b5c1a;
   width: 100%;
   height: auto;
-
 }
